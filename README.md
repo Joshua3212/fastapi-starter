@@ -9,4 +9,6 @@ Docker:
 >
 > docker-compose up --build
 
-Debug: 
+Debug (api service):
+> cd ./app/api
+> bash ./scripts/debug.sh
