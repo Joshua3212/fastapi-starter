@@ -1,0 +1,6 @@
+{
+  "SECRET_KEY": "change_me",
+  "ADMIN_USER": "admin",
+  "ADMIN_PASSWORD": "change_me",
+  "API_PREFIX": "/api/v1"
+}
