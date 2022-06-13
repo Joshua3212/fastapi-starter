@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding status badge">
-      <change afterPath="$PROJECT_DIR$/app/api/middleware/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/responses/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/core/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/api/responses/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/responses/response.py" afterDir="false" />
-    </list>
+    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding custom exceptions and response headers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655113511372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding custom exceptions and response headers">
+      <created>1655117588945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655117588946</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +129,7 @@
     <MESSAGE value="adding docker.yml workflow" />
     <MESSAGE value="fix workflow" />
     <MESSAGE value="adding status badge" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding status badge" />
+    <MESSAGE value="adding custom exceptions and response headers" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding custom exceptions and response headers" />
   </component>
 </project>
