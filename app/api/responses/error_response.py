@@ -1,6 +1,6 @@
 import json
 
-from responses.responses import get_default_headers
+from core.config import Settings
 from starlette.background import BackgroundTask
 from starlette.responses import Response
 
@@ -27,5 +27,5 @@ class ErrorResponse(Response):
             }
         ).encode(self.charset)
         self.status_code = status_code
-        self.init_headers({**get_default_headers(), **headers})
+        self.init_headers({**Settings().assemble_headers(), **headers})
         self.background = background

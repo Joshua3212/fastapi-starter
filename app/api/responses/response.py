@@ -1,15 +1,9 @@
 import json
-import uuid
 from typing import Union
 
+from core.config import Settings
 from starlette.background import BackgroundTask
 from starlette.responses import Response
-
-
-def get_default_headers() -> dict:
-    return {
-        "ETag": str(uuid.uuid4()),  # todo: configure default headers via some sort of config file
-    }
 
 
 class JsonResponse(Response):
@@ -28,5 +22,5 @@ class JsonResponse(Response):
             content = {"items": content, "length": len(content)}
         self.body = json.dumps(content).encode(self.charset)
         self.status_code = status_code
-        self.init_headers({**get_default_headers(), **headers})
+        self.init_headers({**Settings().assemble_headers(), **headers})
         self.background = background

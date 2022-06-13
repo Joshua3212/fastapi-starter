@@ -1,5 +1,7 @@
 import json
 
+import uuid
+
 
 class Settings:
     """
@@ -18,8 +20,17 @@ class Settings:
         self.ADMIN_USER = self.config['ADMIN_USER']
         self.ADMIN_PASSWORD = self.config['ADMIN_PASSWORD']
         self.API_PREFIX = self.config["API_PREFIX"]
+        try:
+            self.HEADERS = self.config['HEADERS']
+        except:
+            self.HEADERS = {}
 
     SECRET_KEY: str
     ADMIN_USER: str
     ADMIN_PASSWORD: str
     API_PREFIX: str
+
+    HEADERS: dict
+
+    def assemble_headers(self):
+        return {"ETag": str(uuid.uuid4()), **self.HEADERS}

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding docker.yml workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/docker.yml" afterDir="false" />
+    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding status badge">
+      <change afterPath="$PROJECT_DIR$/app/api/middleware/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/responses/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/responses/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/responses/response.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +35,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/joshua/Joshua3212/fastapi-starter",
+    "last_opened_file_path": "/home/joshua/Joshua3212/fastapi-starter/app/api/responses",
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/api/responses" />
+      <recent name="$PROJECT_DIR$/app/api" />
       <recent name="$PROJECT_DIR$/app/scripts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655113296402</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix workflow">
+      <created>1655113391881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655113391881</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding status badge">
+      <created>1655113511372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655113511372</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +127,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="adding build files" />
     <MESSAGE value="adding docker.yml workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding docker.yml workflow" />
+    <MESSAGE value="fix workflow" />
+    <MESSAGE value="adding status badge" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding status badge" />
   </component>
 </project>
