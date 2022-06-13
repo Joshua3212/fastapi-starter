@@ -1,0 +1,16 @@
+name: Test Docker Deploy
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test docker-compose
+        run: docker-compose up --build -d
