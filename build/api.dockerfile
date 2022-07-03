@@ -6,5 +6,6 @@ RUN pip install -r requirements.txt
 
 COPY ./app/api .
 COPY ./config.json .
+COPY ./local.config.json .
 
 CMD bash -c "bash ./scripts/deploy.sh"

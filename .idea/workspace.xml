@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="fix typo" />
+    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding local.config.json file option" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,14 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/joshua/Joshua3212/fastapi-starter",
-    "settings.editor.selected.configurable": "actions.on.save"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/joshua/Joshua3212/fastapi-starter&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/api/responses" />
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656849507242</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding local.config.json file option">
+      <created>1656850088760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656850088760</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +152,7 @@
     <MESSAGE value="adding status badge" />
     <MESSAGE value="adding custom exceptions and response headers" />
     <MESSAGE value="fix typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
+    <MESSAGE value="adding local.config.json file option" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding local.config.json file option" />
   </component>
 </project>
