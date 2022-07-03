@@ -12,8 +12,12 @@ class Settings:
         """
         Initialize the settings class with the config.json file.
         """
-        with open('config.json') as config_file:
-            self.config = json.load(config_file)
+        try:
+            with open('local.config.json') as config_file:
+                self.config = json.load(config_file)
+        except:
+            with open('config.json') as config_file:
+                self.config = json.load(config_file)
 
         # initialize variables
         self.SECRET_KEY = self.config['SECRET_KEY']
