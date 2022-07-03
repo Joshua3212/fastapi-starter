@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding custom exceptions and response headers" />
+    <list default="true" id="8fc05448-c42c-4623-a167-d8d7a0a438a0" name="Changes" comment="adding custom exceptions and response headers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/joshua/Joshua3212/fastapi-starter/app/api/responses",
+    "last_opened_file_path": "/home/joshua/huddu/frontend",
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
@@ -109,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655117588946</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding custom exceptions and response headers">
+      <created>1655117897072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655117897072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
